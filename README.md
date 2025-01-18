@@ -1,4 +1,4 @@
-```markdown
+
 # Nome do Projeto
 
 Este projeto é uma biblioteca Python para construir e manipular objetos Pix. Ele fornece uma interface simples e intuitiva para criar, modificar e validar dados Pix, facilitando a integração com sistemas de pagamento que utilizam o Pix.
@@ -41,4 +41,3 @@ code = pix_builder.get_code()
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo `LICENSE` para mais detalhes.
-```
