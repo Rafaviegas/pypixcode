@@ -1,7 +1,6 @@
 
-# Nome do Projeto
 
-Este projeto é uma biblioteca Python para construir e manipular objetos Pix. Ele fornece uma interface simples e intuitiva para criar, modificar e validar dados Pix, facilitando a integração com sistemas de pagamento que utilizam o Pix.
+Este projeto é uma biblioteca Python para gerar codigo e qrcode do Pix. Ele fornece uma interface simples e intuitiva para criar, modificar e validar dados de Pix.
 
 ## Instalação
 
@@ -28,7 +27,7 @@ pix_builder = PixBuilder(name, pix_key, value, city, tx_id)
 
 code = pix_builder.get_code()
 
-result 00020126580014BR.GOV.BCB.PIX013642fbd387-e918-48c7-abd9-13958bea32ce52040000530398654041.005802BR5913Fulano De Tau6013Para De Minas62070503***63045039
+# result  00020126580014BR.GOV.BCB.PIX013642fbd387-e918-48c7-abd9-13958bea32ce52040000530398654041.005802BR5913Fulano De Tau6013Para De Minas62070503***63045039
 ```
 
 ## Contribuição
