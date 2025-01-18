@@ -3,14 +3,15 @@ dynamic = [ "version" ]
 
 [tool.poetry]
 name = "pypixcode"
-version = "0.1.6"
+version = "0.1.9"
 description = "Este projeto é uma biblioteca Python para gerar codigo e qrcode do Pix. Ele fornece uma interface simples e intuitiva para criar, modificar e validar dados de Pix."
 authors = ["bruno.duarte <brunomacielduarte32@gmail.com>"]
 readme = "README.md"
 keywords = [ "packaging", "pix", "qrcode" ]
 
-[project.urls]
-repository = "https://github.com/brduarte/pypixcode"
+[tool.poetry.urls]
+"Repository" = "https://github.com/brduarte/pypixcode"
+
 
 [tool.poetry.dependencies]
 python = "^3.13"

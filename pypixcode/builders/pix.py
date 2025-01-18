@@ -1,4 +1,4 @@
-from commons import Calculator
+from pypixcode.commons import Calculator
 
 class PixBuilder:
     """
