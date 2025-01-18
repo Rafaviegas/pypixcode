@@ -17,7 +17,6 @@ Exemplo de como usar o projeto:
 ```python
 from pypixcode import PixBuilder
 
- # Arrange
 name = "Fulano De Tau"
 pix_key = "42fbd387-e918-48c7-abd9-13958bea32ce"
 value = "1.00"
@@ -28,6 +27,8 @@ tx_id = "***"
 pix_builder = PixBuilder(name, pix_key, value, city, tx_id)
 
 code = pix_builder.get_code()
+
+result 00020126580014BR.GOV.BCB.PIX013642fbd387-e918-48c7-abd9-13958bea32ce52040000530398654041.005802BR5913Fulano De Tau6013Para De Minas62070503***63045039
 ```
 
 ## Contribuição
