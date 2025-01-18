@@ -1,0 +1,5 @@
+[virtualenvs]
+path = "./.venv"
+prompt= "python-{python_version}"
+in-project= true
+

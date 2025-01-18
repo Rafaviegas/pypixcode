@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pypixcode"
+version = "0.1.0"
+description = ""
+authors = ["bruno.duarte <brunomacielduarte32@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+packages = [
+    { include = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
