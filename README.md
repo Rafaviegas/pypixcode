@@ -7,7 +7,7 @@ Este projeto é uma biblioteca Python para gerar codigo e qrcode do Pix. Ele for
 Para instalar o projeto, use o pip:
 
 ```bash
-pip install nome-do-projeto
+pip install pypixcode
 ```
 
 ## Uso
