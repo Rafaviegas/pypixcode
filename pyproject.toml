@@ -4,15 +4,15 @@ version = "0.1.0"
 description = ""
 authors = ["bruno.duarte <brunomacielduarte32@gmail.com>"]
 readme = "README.md"
-package-mode = false
-
-packages = [
-    { include = "src" },
-]
 
 [tool.poetry.dependencies]
 python = "^3.13"
+crcmod = "^1.7"
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+pytest-cov = "^6.0.0"
+pytest-flake8 = "^1.3.0"
 
 [build-system]
 requires = ["poetry-core"]
