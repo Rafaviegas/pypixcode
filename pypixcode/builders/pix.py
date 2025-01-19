@@ -1,4 +1,6 @@
+from commons.qr_code import QrCode
 from pypixcode.commons import Calculator
+
 
 class PixBuilder:
     """
@@ -12,6 +14,7 @@ class PixBuilder:
             tx_id (str): Identificador da transação.
             directory (str): Caminho para salvar o QR Code gerado (padrão: ~/).
     """
+
     def __init__(self, name, pix_key, value, city, tx_id, directory="~/"):
         self.__name = name
         self.__pix_key = pix_key
@@ -20,7 +23,7 @@ class PixBuilder:
         self.__tx_id = tx_id
         self.__directory = directory
 
-    def get_code(self):
+    def get_code(self) -> str:
         value_formatted = f"{float(self.__value):.2f}"
 
         payload_segments = [
@@ -41,3 +44,8 @@ class PixBuilder:
         payload += Calculator.crc16(payload)
 
         return payload
+
+    def get_qrcode(self) -> str:
+        pix_code = self.get_code()
+
+        return QrCode.generate(pix_code)

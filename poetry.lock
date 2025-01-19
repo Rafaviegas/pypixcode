@@ -242,7 +242,18 @@ enabler = ["pytest-enabler (>=2.2)"]
 test = ["pytest (>=6,!=8.1.*)"]
 type = ["pytest-mypy"]
 
+[[package]]
+name = "segno"
+version = "1.6.1"
+description = "QR Code and Micro QR Code generator for Python"
+optional = false
+python-versions = ">=3.5"
+files = [
+    {file = "segno-1.6.1-py3-none-any.whl", hash = "sha256:e90c6ff82c633f757a96d4b1fb06cc932589b5237f33be653f52252544ac64df"},
+    {file = "segno-1.6.1.tar.gz", hash = "sha256:f23da78b059251c36e210d0cf5bfb1a9ec1604ae6e9f3d42f9a7c16d306d847e"},
+]
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.13"
-content-hash = "d79fe32bb84c1b4a9a565215b2055bc7d602df6c826f83e77d9bd4510f7635ba"
+content-hash = "f4c6098167b7eecc1ddee7f5e736252f091f1d09fd949ed14131deb25bced8c2"

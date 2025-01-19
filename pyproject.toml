@@ -12,10 +12,10 @@ keywords = [ "packaging", "pix", "qrcode" ]
 [tool.poetry.urls]
 "Repository" = "https://github.com/brduarte/pypixcode"
 
-
 [tool.poetry.dependencies]
 python = "^3.13"
 crcmod = "^1.7"
+segno = "^1.6.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.4"
